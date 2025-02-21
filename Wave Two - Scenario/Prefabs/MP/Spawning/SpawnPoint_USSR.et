@@ -1,0 +1,8 @@
+SCR_SpawnPoint : "{E7F4D5562F48DDE4}Prefabs/MP/Spawning/SpawnPoint_Base.et" {
+ ID "544EB04DCBFBD126"
+ m_sFaction "USSR"
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "Crash site"
+  Icon "{50824EB9F2C215AB}UI/Textures/Flags/USSR-flag-base-3it.edds"
+ }
+}

@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "649B18B8E4748EFC"
+ components {
+  MeshObject "{649B18B8C1FACF98}" {
+   Object "{ABA1A6C7C77EC362}Assets/Cube/EditorCube.xob"
+  }
+  RigidBody "{649B18B8CE61D64F}" {
+   LayerPreset "Prop"
+   ModelGeometry 1
+  }
+ }
+ coords 3.139 2.181 2.929
+}

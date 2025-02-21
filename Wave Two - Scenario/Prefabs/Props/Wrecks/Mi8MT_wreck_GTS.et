@@ -1,0 +1,12 @@
+GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{CE90658993A183A9}Assets/Vehicles/Helicopters/Mi8/Mi8MT_Wreck.xob"
+   LODFactors {
+    20 10 5 1 1
+   }
+  }
+ }
+ coords 2.326 5.692 -2.385
+}

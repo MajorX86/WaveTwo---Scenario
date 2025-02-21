@@ -1,0 +1,53 @@
+Vehicle : "{B6B8C164FD6377EA}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{648E0D5308762EDE}" {
+     SourceMaterial "Exterier_35715EB3956D22B9"
+     AssignedMaterial "{EB22FFBB10D5B85A}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Body_FIA.emat"
+    }
+    MaterialAssignClass "{648E0D5308762EF9}" {
+     SourceMaterial "Flag_decals_01_0418C5226701B4E1"
+     AssignedMaterial "{0D2E582ABB653D1C}Assets/Vehicles/Helicopters/Mi8/Data/MI8_Flag_decals_FIA_01.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "FIA"
+    m_aAutoLabels {
+     12 123
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "FIA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo door_rear {
+     PivotID "Scene_Root"
+     Prefab "{8ED8F597AD2CFA75}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_rear_door_FIA.et"
+    }
+    RegisteringComponentSlotInfo SeatsRear {
+     Prefab "{9503E8AF9FFBA67A}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Seats/VehPart_MI8_seats_cargo.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    SCR_ResourceContainerVehicleLoadAction "{5DAD751A3D2FE182}" : "{A0E53319BFA4E848}Configs/Resources/Supplies/Actions/Supplies_Vehicle_Load.conf" {
+     ParentContextList {
+      "door_l01_door"
+     }
+    }
+    SCR_ResourceContainerVehicleUnloadAction "{5DAD751A3BF8492E}" : "{F10C4B3E2E87F15B}Configs/Resources/Supplies/Actions/Supplies_Vehicle_Unload.conf" {
+     ParentContextList {
+      "door_l01_door"
+     }
+    }
+   }
+  }
+ }
+}

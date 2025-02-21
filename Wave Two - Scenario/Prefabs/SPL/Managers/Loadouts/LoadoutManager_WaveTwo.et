@@ -1,0 +1,36 @@
+SCR_LoadoutManager {
+ ID "649B18BB72CC1ED9"
+ components {
+  RplComponent "{649B18BB72CC1E38}" {
+   Streamable Disabled
+  }
+ }
+ Flags 0
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{64A961BB464857E3}" {
+   m_sLoadoutName "Spetsnaz Rifleman"
+   m_sLoadoutResource "{AC57A698B7E761D0}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{649B18BBD0507CE9}" {
+   m_sLoadoutName "Rifleman"
+   m_sLoadoutResource "{29786A5DBA2EC48A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{649B18BAB97E2F81}" {
+   m_sLoadoutName "AT"
+   m_sLoadoutResource "{723C3899F7BC9B08}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AAT.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{649B18BA6D9EF5C7}" {
+   m_sLoadoutName "Sniper"
+   m_sLoadoutResource "{F34FC121F4B43694}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{649B18BBF86B15D5}" {
+   m_sLoadoutName "MG"
+   m_sLoadoutResource "{E4EEE9368656AD0D}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG.et"
+   m_sAffiliatedFaction "USSR"
+  }
+ }
+}

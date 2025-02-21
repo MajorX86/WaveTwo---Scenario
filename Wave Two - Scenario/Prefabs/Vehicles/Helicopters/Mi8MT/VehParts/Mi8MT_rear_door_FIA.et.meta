@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8ED8F597AD2CFA75}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_rear_door_FIA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

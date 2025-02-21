@@ -1,0 +1,3 @@
+SCR_DeathGameOverManagerComponent {
+ m_bPauseGameOnDeath 0
+}

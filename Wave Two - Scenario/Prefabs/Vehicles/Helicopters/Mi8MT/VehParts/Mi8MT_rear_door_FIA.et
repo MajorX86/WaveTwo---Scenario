@@ -1,0 +1,24 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{558FDFA93A92EC0B}Assets/Vehicles/Helicopters/Mi8/VehParts/Mi8_door_rear.xob"
+   Materials {
+    MaterialAssignClass "{648E0D53701931B4}" {
+     SourceMaterial "Exterier_35715EB3956D22B9"
+     AssignedMaterial "{EB22FFBB10D5B85A}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Body_FIA.emat"
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone DoorRear {
+     HZDefault 1
+     MaxHealth 2000
+     m_pDestructionHandler SCR_DestructionBaseHandler "{648E0D5344B35CED}" {
+     }
+    }
+   }
+  }
+ }
+}

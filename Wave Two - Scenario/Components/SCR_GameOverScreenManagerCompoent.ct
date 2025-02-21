@@ -1,0 +1,4 @@
+SCR_GameOverScreenManagerComponent {
+ m_GameOverScreenConfig SCR_GameOverScreenConfig "{56DEC6462FFDD82D}" : "{62112801E5943985}Configs/GameOverScreen/SP01GameOverScreensConfig.conf" {
+ }
+}

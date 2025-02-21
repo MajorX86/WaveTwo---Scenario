@@ -1,0 +1,9 @@
+SCR_TimeAndWeatherHandlerComponent {
+ m_bUsePredefineStartingTimeAndWeather 1
+ m_aStartingWeatherAndTime {
+  SCR_TimeAndWeatherState "{648D126D503D656F}" {
+   m_sWeatherPresetName "Cloudy"
+   m_iStartingHour 6
+  }
+ }
+}
