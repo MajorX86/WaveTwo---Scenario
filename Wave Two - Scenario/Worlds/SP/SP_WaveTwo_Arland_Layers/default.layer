@@ -1324,47 +1324,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
      }
     }
    }
-   GenericEntity LayerTaskClearArea1 : "{CDC0845AD90BA073}Prefabs/Systems/ScenarioFramework/Components/LayerTaskClearArea.et" {
-    components {
-     SCR_ScenarioFrameworkLayerTaskClearArea "{5A6513F46D132331}" {
-      m_sFactionKey "USSR"
-      m_sTaskTitle "Clear the base"
-      m_sTaskDescription "Eliminate all the FIA targets from the military base."
-     }
-    }
-    coords -2.154 0.243 -9.551
-    {
-     GenericEntity Layer6 : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
-      components {
-       SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
-        m_sFactionKey "USSR"
-        m_iRandomPercent 100
-       }
-      }
-      coords -1.727 -0.049 -6.085
-      {
-       GenericEntity SlotClearArea1 : "{E53456990A756229}Prefabs/Systems/ScenarioFramework/Components/SlotClearArea.et" {
-        components {
-         SCR_ScenarioFrameworkSlotClearArea "{5A633AF525D5B972}" {
-          m_aPlugins {
-           SCR_ScenarioFrameworkPluginTrigger "{5A633AF5368D26A3}" {
-            m_fAreaRadius 75
-            m_aSpecificClassNames {
-             "SCR_ChimeraCharacter"
-            }
-            m_sActivatedByThisFaction "USSR"
-           }
-          }
-          m_sTaskTitle "Clear the base"
-          m_sTaskDescription "Eliminate all the FIA targets from the military base."
-         }
-        }
-        coords 2.088 0.053 5.775
-       }
-      }
-     }
-    }
-   }
   }
  }
  Area5 {
@@ -1722,13 +1681,13 @@ GenericEntity : "{E51E2E1D77B54223}Prefabs/Compositions/Misc/CustomEntities/Comp
 }
 $grp GenericEntity : "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" {
  {
-  coords 1616.638 6.809 1966.645
-  angleX 17.28
-  angleY 71.337
-  angleZ 9.645
+  coords 1616.651 6.811 1966.66
+  angleX 16.868
+  angleY 71.404
+  angleZ 9.362
  }
  {
-  coords 1624.802 6.945 1965.438
+  coords 1624.8 6.945 1965.437
   angleX -2.002
   angleY 72.041
  }
