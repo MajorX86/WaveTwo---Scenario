@@ -1279,6 +1279,11 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
       components {
        SCR_ScenarioFrameworkSlotKill "{5B02763C1EAA0BF1}" {
         m_sObjectToSpawn "{8379696C98AF9001}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_PL.et"
+        m_aActionsOnFinished {
+         SCR_ScenarioFrameworkActionPlaySound "{64B43D9472733819}" {
+          m_sSound "{1CEAD47C5A9B42D1}Sounds/Music/Campaign/Samples/Jingles/MU_Jingle_Win_01.wav"
+         }
+        }
         m_sWPToSpawn "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait.et"
        }
       }
@@ -1313,6 +1318,11 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compon
           m_sObjectToSpawn "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et"
           m_sTaskTitle "Destroy the Vehicle"
           m_sTaskDescription "Destroy the FIA UAZ 469."
+          m_aActionsOnFinished {
+           SCR_ScenarioFrameworkActionPlaySound "{64B43D945EAA45D2}" {
+            m_sSound "{1CEAD47C5A9B42D1}Sounds/Music/Campaign/Samples/Jingles/MU_Jingle_Win_01.wav"
+           }
+          }
          }
         }
         coords -28.003 -0.558 -0.287
@@ -1681,14 +1691,13 @@ GenericEntity : "{E51E2E1D77B54223}Prefabs/Compositions/Misc/CustomEntities/Comp
 }
 $grp GenericEntity : "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" {
  {
-  coords 1616.651 6.811 1966.66
-  angleX 16.868
-  angleY 71.404
-  angleZ 9.362
+  coords 1616.714 6.816 1966.647
+  angleX 1.773
+  angleY 72.054
  }
  {
-  coords 1624.8 6.945 1965.437
-  angleX -2.002
+  coords 1624.781 6.946 1965.431
+  angleX -2.005
   angleY 72.041
  }
 }
